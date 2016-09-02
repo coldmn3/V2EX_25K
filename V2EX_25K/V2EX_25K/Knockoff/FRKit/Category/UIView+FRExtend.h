@@ -1,5 +1,5 @@
 //
-//  UIView+WFRExtend.h
+//  UIView+FRExtend.h
 //  V2EX_25K
 //
 //  Created by coldmn3 on 16/9/2.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (WFRExtend)
+@interface UIView (FRExtend)
 
 @property (nonatomic, assign) CGFloat left;        ///< Shortcut for frame.origin.x.
 @property (nonatomic, assign) CGFloat top;         ///< Shortcut for frame.origin.y

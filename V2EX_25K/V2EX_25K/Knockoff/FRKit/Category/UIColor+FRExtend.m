@@ -1,14 +1,14 @@
 //
-//  UIColor+WFRExtend.m
+//  UIColor+FRExtend.m
 //  V2EX_25K
 //
 //  Created by coldmn3 on 16/9/2.
 //  Copyright © 2016年 From Scratch. All rights reserved.
 //
 
-#import "UIColor+WFRExtend.h"
+#import "UIColor+FRExtend.h"
 
-@implementation UIColor (WFRExtend)
+@implementation UIColor (FRExtend)
 
 + (UIColor *)randomColor {
     CGFloat red = arc4random_uniform(256) / 255.0;

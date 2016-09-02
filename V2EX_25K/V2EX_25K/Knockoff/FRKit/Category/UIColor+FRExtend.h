@@ -1,5 +1,5 @@
 //
-//  UIColor+WFRExtend.h
+//  UIColor+FRExtend.h
 //  V2EX_25K
 //
 //  Created by coldmn3 on 16/9/2.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (WFRExtend)
+@interface UIColor (FRExtend)
 
 /**
  *  生成随机颜色

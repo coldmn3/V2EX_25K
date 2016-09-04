@@ -7,44 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F31E38EB1D79453A00DF07A5 /* V2BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E38EA1D79453A00DF07A5 /* V2BaseViewController.m */; };
-		F31E38EE1D79464800DF07A5 /* V2SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E38ED1D79464800DF07A5 /* V2SettingsViewController.m */; };
-		F31E38F11D794C9D00DF07A5 /* V2NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E38F01D794C9D00DF07A5 /* V2NotificationsViewController.m */; };
-		F31E38F41D794DB100DF07A5 /* V2HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E38F31D794DB100DF07A5 /* V2HomeViewController.m */; };
-		F31E38F71D794E8300DF07A5 /* V2NodesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E38F61D794E8300DF07A5 /* V2NodesViewController.m */; };
 		F31E39041D7968B100DF07A5 /* V2Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E39031D7968B100DF07A5 /* V2Constants.m */; };
-		F31E390D1D796A8200DF07A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31E39061D796A8200DF07A5 /* Assets.xcassets */; };
-		F31E390E1D796A8200DF07A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31E39071D796A8200DF07A5 /* LaunchScreen.storyboard */; };
-		F31E390F1D796A8200DF07A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31E39091D796A8200DF07A5 /* Main.storyboard */; };
-		F31E39101D796A8200DF07A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F31E390B1D796A8200DF07A5 /* Info.plist */; };
-		F31E39111D796A8200DF07A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E390C1D796A8200DF07A5 /* main.m */; };
 		F31E39271D797A9200DF07A5 /* WFRTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E39201D797A9200DF07A5 /* WFRTabBar.m */; };
 		F31E39281D797A9200DF07A5 /* WFRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E39221D797A9200DF07A5 /* WFRTabBarController.m */; };
 		F31E39291D797A9200DF07A5 /* WFRTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E39241D797A9200DF07A5 /* WFRTabBarItem.m */; };
 		F31E392D1D797ADA00DF07A5 /* UIView+FRExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E392C1D797ADA00DF07A5 /* UIView+FRExtend.m */; };
 		F31E39301D797AE900DF07A5 /* UIColor+FRExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E392F1D797AE900DF07A5 /* UIColor+FRExtend.m */; };
+		F3F131451D7C44C5003605D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F1313E1D7C44C5003605D2 /* Assets.xcassets */; };
+		F3F131461D7C44C5003605D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F1313F1D7C44C5003605D2 /* LaunchScreen.storyboard */; };
+		F3F131471D7C44C5003605D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F131411D7C44C5003605D2 /* Main.storyboard */; };
+		F3F131481D7C44C5003605D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3F131431D7C44C5003605D2 /* Info.plist */; };
+		F3F131491D7C44C5003605D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F131441D7C44C5003605D2 /* main.m */; };
+		F3F131551D7C44DD003605D2 /* V2BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F1314C1D7C44DD003605D2 /* V2BaseViewController.m */; };
+		F3F131561D7C44DD003605D2 /* V2HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F1314E1D7C44DD003605D2 /* V2HomeViewController.m */; };
+		F3F131571D7C44DD003605D2 /* V2NodesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F131501D7C44DD003605D2 /* V2NodesViewController.m */; };
+		F3F131581D7C44DD003605D2 /* V2NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F131521D7C44DD003605D2 /* V2NotificationsViewController.m */; };
+		F3F131591D7C44DD003605D2 /* V2SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F131541D7C44DD003605D2 /* V2SettingsViewController.m */; };
 		F3F66E6D1D76D78F0045082C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F66E6C1D76D78F0045082C /* AppDelegate.m */; };
 		F3F66E701D76D78F0045082C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F66E6F1D76D78F0045082C /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F31E38E91D79453A00DF07A5 /* V2BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2BaseViewController.h; sourceTree = "<group>"; };
-		F31E38EA1D79453A00DF07A5 /* V2BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2BaseViewController.m; sourceTree = "<group>"; };
-		F31E38EC1D79464800DF07A5 /* V2SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2SettingsViewController.h; sourceTree = "<group>"; };
-		F31E38ED1D79464800DF07A5 /* V2SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2SettingsViewController.m; sourceTree = "<group>"; };
-		F31E38EF1D794C9D00DF07A5 /* V2NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2NotificationsViewController.h; sourceTree = "<group>"; };
-		F31E38F01D794C9D00DF07A5 /* V2NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2NotificationsViewController.m; sourceTree = "<group>"; };
-		F31E38F21D794DB100DF07A5 /* V2HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2HomeViewController.h; sourceTree = "<group>"; };
-		F31E38F31D794DB100DF07A5 /* V2HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2HomeViewController.m; sourceTree = "<group>"; };
-		F31E38F51D794E8300DF07A5 /* V2NodesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2NodesViewController.h; sourceTree = "<group>"; };
-		F31E38F61D794E8300DF07A5 /* V2NodesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2NodesViewController.m; sourceTree = "<group>"; };
 		F31E39021D7968B100DF07A5 /* V2Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2Constants.h; sourceTree = "<group>"; };
 		F31E39031D7968B100DF07A5 /* V2Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2Constants.m; sourceTree = "<group>"; };
-		F31E39061D796A8200DF07A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F31E39081D796A8200DF07A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F31E390A1D796A8200DF07A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F31E390B1D796A8200DF07A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F31E390C1D796A8200DF07A5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F31E391F1D797A9200DF07A5 /* WFRTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFRTabBar.h; sourceTree = "<group>"; };
 		F31E39201D797A9200DF07A5 /* WFRTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFRTabBar.m; sourceTree = "<group>"; };
 		F31E39211D797A9200DF07A5 /* WFRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFRTabBarController.h; sourceTree = "<group>"; };
@@ -56,6 +41,21 @@
 		F31E392C1D797ADA00DF07A5 /* UIView+FRExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FRExtend.m"; sourceTree = "<group>"; };
 		F31E392E1D797AE900DF07A5 /* UIColor+FRExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FRExtend.h"; sourceTree = "<group>"; };
 		F31E392F1D797AE900DF07A5 /* UIColor+FRExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FRExtend.m"; sourceTree = "<group>"; };
+		F3F1313E1D7C44C5003605D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F131401D7C44C5003605D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3F131421D7C44C5003605D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3F131431D7C44C5003605D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F131441D7C44C5003605D2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3F1314B1D7C44DD003605D2 /* V2BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2BaseViewController.h; sourceTree = "<group>"; };
+		F3F1314C1D7C44DD003605D2 /* V2BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2BaseViewController.m; sourceTree = "<group>"; };
+		F3F1314D1D7C44DD003605D2 /* V2HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2HomeViewController.h; sourceTree = "<group>"; };
+		F3F1314E1D7C44DD003605D2 /* V2HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2HomeViewController.m; sourceTree = "<group>"; };
+		F3F1314F1D7C44DD003605D2 /* V2NodesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2NodesViewController.h; sourceTree = "<group>"; };
+		F3F131501D7C44DD003605D2 /* V2NodesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2NodesViewController.m; sourceTree = "<group>"; };
+		F3F131511D7C44DD003605D2 /* V2NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2NotificationsViewController.h; sourceTree = "<group>"; };
+		F3F131521D7C44DD003605D2 /* V2NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2NotificationsViewController.m; sourceTree = "<group>"; };
+		F3F131531D7C44DD003605D2 /* V2SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2SettingsViewController.h; sourceTree = "<group>"; };
+		F3F131541D7C44DD003605D2 /* V2SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2SettingsViewController.m; sourceTree = "<group>"; };
 		F3F66E651D76D78F0045082C /* V2EX_25K.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V2EX_25K.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F66E6B1D76D78F0045082C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F3F66E6C1D76D78F0045082C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,42 +83,6 @@
 				F31E391E1D797A9200DF07A5 /* FRTabBarController */,
 			);
 			path = Knockoff;
-			sourceTree = "<group>";
-		};
-		F31E38E71D79437D00DF07A5 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				F31E38E91D79453A00DF07A5 /* V2BaseViewController.h */,
-				F31E38EA1D79453A00DF07A5 /* V2BaseViewController.m */,
-				F31E38F21D794DB100DF07A5 /* V2HomeViewController.h */,
-				F31E38F31D794DB100DF07A5 /* V2HomeViewController.m */,
-				F31E38F51D794E8300DF07A5 /* V2NodesViewController.h */,
-				F31E38F61D794E8300DF07A5 /* V2NodesViewController.m */,
-				F31E38EF1D794C9D00DF07A5 /* V2NotificationsViewController.h */,
-				F31E38F01D794C9D00DF07A5 /* V2NotificationsViewController.m */,
-				F31E38EC1D79464800DF07A5 /* V2SettingsViewController.h */,
-				F31E38ED1D79464800DF07A5 /* V2SettingsViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		F31E38E81D7943B500DF07A5 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		F31E39051D796A8200DF07A5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F31E39061D796A8200DF07A5 /* Assets.xcassets */,
-				F31E39071D796A8200DF07A5 /* LaunchScreen.storyboard */,
-				F31E39091D796A8200DF07A5 /* Main.storyboard */,
-				F31E390B1D796A8200DF07A5 /* Info.plist */,
-				F31E390C1D796A8200DF07A5 /* main.m */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		F31E39141D797A9200DF07A5 /* FRHTMLParser */ = {
@@ -176,6 +140,42 @@
 			path = FRTabBarController;
 			sourceTree = "<group>";
 		};
+		F3F1313C1D7C44AE003605D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3F1313D1D7C44C5003605D2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F3F1313E1D7C44C5003605D2 /* Assets.xcassets */,
+				F3F1313F1D7C44C5003605D2 /* LaunchScreen.storyboard */,
+				F3F131411D7C44C5003605D2 /* Main.storyboard */,
+				F3F131431D7C44C5003605D2 /* Info.plist */,
+				F3F131441D7C44C5003605D2 /* main.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F3F1314A1D7C44DD003605D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3F1314B1D7C44DD003605D2 /* V2BaseViewController.h */,
+				F3F1314C1D7C44DD003605D2 /* V2BaseViewController.m */,
+				F3F1314D1D7C44DD003605D2 /* V2HomeViewController.h */,
+				F3F1314E1D7C44DD003605D2 /* V2HomeViewController.m */,
+				F3F1314F1D7C44DD003605D2 /* V2NodesViewController.h */,
+				F3F131501D7C44DD003605D2 /* V2NodesViewController.m */,
+				F3F131511D7C44DD003605D2 /* V2NotificationsViewController.h */,
+				F3F131521D7C44DD003605D2 /* V2NotificationsViewController.m */,
+				F3F131531D7C44DD003605D2 /* V2SettingsViewController.h */,
+				F3F131541D7C44DD003605D2 /* V2SettingsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		F3F66E5C1D76D78F0045082C = {
 			isa = PBXGroup;
 			children = (
@@ -195,10 +195,10 @@
 		F3F66E671D76D78F0045082C /* V2EX_25K */ = {
 			isa = PBXGroup;
 			children = (
-				F31E39051D796A8200DF07A5 /* Resources */,
-				F31E38E81D7943B500DF07A5 /* Models */,
+				F3F1314A1D7C44DD003605D2 /* Controller */,
+				F3F1313D1D7C44C5003605D2 /* Resource */,
+				F3F1313C1D7C44AE003605D2 /* Model */,
 				F31BBC631D787A7700DF6B77 /* Knockoff */,
-				F31E38E71D79437D00DF07A5 /* Controllers */,
 				F3F66E6B1D76D78F0045082C /* AppDelegate.h */,
 				F3F66E6C1D76D78F0045082C /* AppDelegate.m */,
 				F3F66E6E1D76D78F0045082C /* ViewController.h */,
@@ -266,10 +266,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31E39101D796A8200DF07A5 /* Info.plist in Resources */,
-				F31E390F1D796A8200DF07A5 /* Main.storyboard in Resources */,
-				F31E390D1D796A8200DF07A5 /* Assets.xcassets in Resources */,
-				F31E390E1D796A8200DF07A5 /* LaunchScreen.storyboard in Resources */,
+				F3F131481D7C44C5003605D2 /* Info.plist in Resources */,
+				F3F131471D7C44C5003605D2 /* Main.storyboard in Resources */,
+				F3F131451D7C44C5003605D2 /* Assets.xcassets in Resources */,
+				F3F131461D7C44C5003605D2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,37 +281,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3F66E701D76D78F0045082C /* ViewController.m in Sources */,
-				F31E38F11D794C9D00DF07A5 /* V2NotificationsViewController.m in Sources */,
+				F3F131561D7C44DD003605D2 /* V2HomeViewController.m in Sources */,
 				F31E39291D797A9200DF07A5 /* WFRTabBarItem.m in Sources */,
 				F31E39301D797AE900DF07A5 /* UIColor+FRExtend.m in Sources */,
 				F3F66E6D1D76D78F0045082C /* AppDelegate.m in Sources */,
 				F31E392D1D797ADA00DF07A5 /* UIView+FRExtend.m in Sources */,
+				F3F131551D7C44DD003605D2 /* V2BaseViewController.m in Sources */,
 				F31E39271D797A9200DF07A5 /* WFRTabBar.m in Sources */,
-				F31E38F71D794E8300DF07A5 /* V2NodesViewController.m in Sources */,
 				F31E39281D797A9200DF07A5 /* WFRTabBarController.m in Sources */,
-				F31E38F41D794DB100DF07A5 /* V2HomeViewController.m in Sources */,
-				F31E38EB1D79453A00DF07A5 /* V2BaseViewController.m in Sources */,
-				F31E38EE1D79464800DF07A5 /* V2SettingsViewController.m in Sources */,
+				F3F131491D7C44C5003605D2 /* main.m in Sources */,
+				F3F131581D7C44DD003605D2 /* V2NotificationsViewController.m in Sources */,
+				F3F131591D7C44DD003605D2 /* V2SettingsViewController.m in Sources */,
+				F3F131571D7C44DD003605D2 /* V2NodesViewController.m in Sources */,
 				F31E39041D7968B100DF07A5 /* V2Constants.m in Sources */,
-				F31E39111D796A8200DF07A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F31E39071D796A8200DF07A5 /* LaunchScreen.storyboard */ = {
+		F3F1313F1D7C44C5003605D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F31E39081D796A8200DF07A5 /* Base */,
+				F3F131401D7C44C5003605D2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		F31E39091D796A8200DF07A5 /* Main.storyboard */ = {
+		F3F131411D7C44C5003605D2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F31E390A1D796A8200DF07A5 /* Base */,
+				F3F131421D7C44C5003605D2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -407,7 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = V2EX_25K/Info.plist;
+				INFOPLIST_FILE = V2EX_25K/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fromscratch.V2EX-25K";
@@ -419,7 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = V2EX_25K/Info.plist;
+				INFOPLIST_FILE = V2EX_25K/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fromscratch.V2EX-25K";

@@ -33,7 +33,47 @@
 #pragma mark - Setter
 
 - (void)setSelectedIndex:(NSUInteger)selectedIndex {
-    NSAssert(selectedIndex >= [self.viewControllers count], @"viewController index out of bounds");
+    NSAssert(selectedIndex >= [self.viewControllers count], @"selectedIndex out of bounds");
+    
+    UIViewController *willBeSelectedViewController = self.viewControllers[selectedIndex];
+    
+    if ([self.delegate respondsToSelector:@selector(tabBarController:shouldSelectViewController:)]) {
+        if (![self.delegate tabBarController:self shouldSelectViewController:willBeSelectedViewController]) {
+            return;
+        }
+    }
+    
+    if (self.selectedViewController == willBeSelectedViewController) {
+        return;
+    }
+    
+    if (self.selectedViewController) {
+        [self.selectedViewController willMoveToParentViewController:nil];
+        [self.selectedViewController.view removeFromSuperview];
+        [self.selectedViewController removeFromParentViewController];
+    }
+    
+    _selectedIndex = selectedIndex;
+    
+    self.selectedViewController = self.viewControllers[selectedIndex];
+    [self addChildViewController:self.selectedViewController];
+    self.selectedViewController.view.frame = self.contentView.bounds;
+    [self.contentView addSubview:self.selectedViewController.view];
+    [self.selectedViewController didMoveToParentViewController:self];
+    
+    //  child viewcontroller status bar可能需要update
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
+- (void)setViewControllers:(NSArray *)viewControllers
+{
+    if ([_viewControllers count]) {
+        for (UIViewController *viewController in _viewControllers) {
+            [viewController willMoveToParentViewController:nil];
+            [viewController.view removeFromSuperview];
+            [viewController removeFromParentViewController];
+        }
+    }
 }
 
 #pragma mark - Getter

@@ -16,7 +16,7 @@
 
 @implementation FRTabBarController
 
-#pragma mark - LifeCycle
+#pragma mark - Lifecycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -65,8 +65,8 @@
     [self setNeedsStatusBarAppearanceUpdate];
 }
 
-- (void)setViewControllers:(NSArray *)viewControllers
-{
+- (void)setViewControllers:(NSArray *)viewControllers {
+    
     if ([_viewControllers count]) {
         for (UIViewController *viewController in _viewControllers) {
             [viewController willMoveToParentViewController:nil];
@@ -78,8 +78,7 @@
 
 #pragma mark - Getter
 
-- (UIView *)contentView
-{
+- (UIView *)contentView {
     if (!_contentView) {
         _contentView = [[UIView alloc] init];
         _contentView.backgroundColor = [UIColor whiteColor];

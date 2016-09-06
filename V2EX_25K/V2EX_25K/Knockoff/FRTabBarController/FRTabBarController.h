@@ -14,12 +14,23 @@
 
 @optional
 
+/**
+ *  是否可以选中某个viewController
+ *
+ */
 - (BOOL)tabBarController:(FRTabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController;
 
+/**
+ *  选中了某个viewController
+ *
+ */
 - (void)tabBarController:(FRTabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController;
 
 @end
 
+/**
+ *  <#Description#>
+ */
 @interface FRTabBarController : UIViewController
 
 @property (nonatomic, weak) id<FRTabBarControllerDelegate> delegate;

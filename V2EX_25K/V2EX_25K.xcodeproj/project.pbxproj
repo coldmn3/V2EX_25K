@@ -10,6 +10,8 @@
 		F31E39041D7968B100DF07A5 /* V2Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E39031D7968B100DF07A5 /* V2Constants.m */; };
 		F31E392D1D797ADA00DF07A5 /* UIView+FRExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E392C1D797ADA00DF07A5 /* UIView+FRExtend.m */; };
 		F31E39301D797AE900DF07A5 /* UIColor+FRExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E392F1D797AE900DF07A5 /* UIColor+FRExtend.m */; };
+		F35B78D31D7E92D7004E39F2 /* FRTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F35B78D21D7E92D7004E39F2 /* FRTabBar.m */; };
+		F35B78D61D7E9660004E39F2 /* FRTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F35B78D51D7E9660004E39F2 /* FRTabBarItem.m */; };
 		F3A031F31D7C5AA60073BF0D /* FRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A031F21D7C5AA60073BF0D /* FRTabBarController.m */; };
 		F3F131451D7C44C5003605D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F1313E1D7C44C5003605D2 /* Assets.xcassets */; };
 		F3F131461D7C44C5003605D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F1313F1D7C44C5003605D2 /* LaunchScreen.storyboard */; };
@@ -33,6 +35,10 @@
 		F31E392C1D797ADA00DF07A5 /* UIView+FRExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FRExtend.m"; sourceTree = "<group>"; };
 		F31E392E1D797AE900DF07A5 /* UIColor+FRExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FRExtend.h"; sourceTree = "<group>"; };
 		F31E392F1D797AE900DF07A5 /* UIColor+FRExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FRExtend.m"; sourceTree = "<group>"; };
+		F35B78D11D7E92D7004E39F2 /* FRTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTabBar.h; sourceTree = "<group>"; };
+		F35B78D21D7E92D7004E39F2 /* FRTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTabBar.m; sourceTree = "<group>"; };
+		F35B78D41D7E9660004E39F2 /* FRTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTabBarItem.h; sourceTree = "<group>"; };
+		F35B78D51D7E9660004E39F2 /* FRTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTabBarItem.m; sourceTree = "<group>"; };
 		F3A031F11D7C5AA60073BF0D /* FRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTabBarController.h; sourceTree = "<group>"; };
 		F3A031F21D7C5AA60073BF0D /* FRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTabBarController.m; sourceTree = "<group>"; };
 		F3F1313E1D7C44C5003605D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,6 +132,10 @@
 			children = (
 				F3A031F11D7C5AA60073BF0D /* FRTabBarController.h */,
 				F3A031F21D7C5AA60073BF0D /* FRTabBarController.m */,
+				F35B78D11D7E92D7004E39F2 /* FRTabBar.h */,
+				F35B78D21D7E92D7004E39F2 /* FRTabBar.m */,
+				F35B78D41D7E9660004E39F2 /* FRTabBarItem.h */,
+				F35B78D51D7E9660004E39F2 /* FRTabBarItem.m */,
 			);
 			path = FRTabBarController;
 			sourceTree = "<group>";
@@ -272,7 +282,9 @@
 			files = (
 				F3F66E701D76D78F0045082C /* ViewController.m in Sources */,
 				F3F131561D7C44DD003605D2 /* V2HomeViewController.m in Sources */,
+				F35B78D61D7E9660004E39F2 /* FRTabBarItem.m in Sources */,
 				F31E39301D797AE900DF07A5 /* UIColor+FRExtend.m in Sources */,
+				F35B78D31D7E92D7004E39F2 /* FRTabBar.m in Sources */,
 				F3A031F31D7C5AA60073BF0D /* FRTabBarController.m in Sources */,
 				F3F66E6D1D76D78F0045082C /* AppDelegate.m in Sources */,
 				F31E392D1D797ADA00DF07A5 /* UIView+FRExtend.m in Sources */,

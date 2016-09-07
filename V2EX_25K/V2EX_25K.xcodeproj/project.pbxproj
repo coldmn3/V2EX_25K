@@ -12,6 +12,8 @@
 		F31E39301D797AE900DF07A5 /* UIColor+FRExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E392F1D797AE900DF07A5 /* UIColor+FRExtend.m */; };
 		F35B78D31D7E92D7004E39F2 /* FRTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F35B78D21D7E92D7004E39F2 /* FRTabBar.m */; };
 		F35B78D61D7E9660004E39F2 /* FRTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F35B78D51D7E9660004E39F2 /* FRTabBarItem.m */; };
+		F35B78DA1D7EA0B4004E39F2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F35B78D91D7EA0B4004E39F2 /* Person.m */; };
+		F35B78DD1D7EA6DE004E39F2 /* NSObject+FRProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F35B78DC1D7EA6DE004E39F2 /* NSObject+FRProperty.m */; };
 		F3A031F31D7C5AA60073BF0D /* FRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A031F21D7C5AA60073BF0D /* FRTabBarController.m */; };
 		F3F131451D7C44C5003605D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F1313E1D7C44C5003605D2 /* Assets.xcassets */; };
 		F3F131461D7C44C5003605D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F1313F1D7C44C5003605D2 /* LaunchScreen.storyboard */; };
@@ -39,6 +41,10 @@
 		F35B78D21D7E92D7004E39F2 /* FRTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTabBar.m; sourceTree = "<group>"; };
 		F35B78D41D7E9660004E39F2 /* FRTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTabBarItem.h; sourceTree = "<group>"; };
 		F35B78D51D7E9660004E39F2 /* FRTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTabBarItem.m; sourceTree = "<group>"; };
+		F35B78D81D7EA0B4004E39F2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F35B78D91D7EA0B4004E39F2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F35B78DB1D7EA6DE004E39F2 /* NSObject+FRProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FRProperty.h"; sourceTree = "<group>"; };
+		F35B78DC1D7EA6DE004E39F2 /* NSObject+FRProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FRProperty.m"; sourceTree = "<group>"; };
 		F3A031F11D7C5AA60073BF0D /* FRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTabBarController.h; sourceTree = "<group>"; };
 		F3A031F21D7C5AA60073BF0D /* FRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTabBarController.m; sourceTree = "<group>"; };
 		F3F1313E1D7C44C5003605D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +83,7 @@
 		F31BBC631D787A7700DF6B77 /* Knockoff */ = {
 			isa = PBXGroup;
 			children = (
+				F35B78D71D7E9D34004E39F2 /* FRModel */,
 				F31E39141D797A9200DF07A5 /* FRHTMLParser */,
 				F31E39151D797A9200DF07A5 /* FRKit */,
 				F31E391D1D797A9200DF07A5 /* FRNetworking */,
@@ -138,6 +145,15 @@
 				F35B78D51D7E9660004E39F2 /* FRTabBarItem.m */,
 			);
 			path = FRTabBarController;
+			sourceTree = "<group>";
+		};
+		F35B78D71D7E9D34004E39F2 /* FRModel */ = {
+			isa = PBXGroup;
+			children = (
+				F35B78DB1D7EA6DE004E39F2 /* NSObject+FRProperty.h */,
+				F35B78DC1D7EA6DE004E39F2 /* NSObject+FRProperty.m */,
+			);
+			path = FRModel;
 			sourceTree = "<group>";
 		};
 		F3F1313C1D7C44AE003605D2 /* Model */ = {
@@ -205,6 +221,8 @@
 				F3F66E6F1D76D78F0045082C /* ViewController.m */,
 				F31E39021D7968B100DF07A5 /* V2Constants.h */,
 				F31E39031D7968B100DF07A5 /* V2Constants.m */,
+				F35B78D81D7EA0B4004E39F2 /* Person.h */,
+				F35B78D91D7EA0B4004E39F2 /* Person.m */,
 			);
 			path = V2EX_25K;
 			sourceTree = "<group>";
@@ -280,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35B78DD1D7EA6DE004E39F2 /* NSObject+FRProperty.m in Sources */,
 				F3F66E701D76D78F0045082C /* ViewController.m in Sources */,
 				F3F131561D7C44DD003605D2 /* V2HomeViewController.m in Sources */,
 				F35B78D61D7E9660004E39F2 /* FRTabBarItem.m in Sources */,
@@ -292,6 +311,7 @@
 				F3F131491D7C44C5003605D2 /* main.m in Sources */,
 				F3F131581D7C44DD003605D2 /* V2NotificationsViewController.m in Sources */,
 				F3F131591D7C44DD003605D2 /* V2SettingsViewController.m in Sources */,
+				F35B78DA1D7EA0B4004E39F2 /* Person.m in Sources */,
 				F3F131571D7C44DD003605D2 /* V2NodesViewController.m in Sources */,
 				F31E39041D7968B100DF07A5 /* V2Constants.m in Sources */,
 			);
@@ -407,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = V2EX_25K/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -419,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = V2EX_25K/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

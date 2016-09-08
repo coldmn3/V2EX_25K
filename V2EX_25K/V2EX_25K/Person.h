@@ -10,10 +10,12 @@
 
 @interface Person : NSObject
 
-@property (nonatomic, strong) NSString *name;
+@property (nonatomic) NSString *name;
 
 @property (nonatomic, assign) NSInteger salary;
 
 - (void)eat;
+
+@property (nonatomic, assign, getter=isHaha) BOOL haha;
 
 @end

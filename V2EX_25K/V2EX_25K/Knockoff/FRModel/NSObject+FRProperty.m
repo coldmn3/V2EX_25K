@@ -9,6 +9,7 @@
 #import "NSObject+FRProperty.h"
 
 #import <objc/runtime.h>
+#import "FRProperty.h"
 
 @implementation NSObject (FRProperty)
 
@@ -20,7 +21,10 @@
     
     for (int i = 0; i < outCount; i++) {
         objc_property_t property = properties[i];
-        fprintf(stdout, "%s %s\n", property_getName(property), property_getAttributes(property));
+        NSString *name = @(property_getName(property));
+//        FRProperty *propertyObject = 
+        NSString *attributeString = @(property_getAttributes(property));
+        NSLog(@"%@ -> %@", name, attributeString);
     }
     return nil;
 }

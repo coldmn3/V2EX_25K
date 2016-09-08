@@ -13,6 +13,9 @@
 - (void)eat
 {
     NSLog(@"person eat");
+    [self class];
 }
+
+
 
 @end

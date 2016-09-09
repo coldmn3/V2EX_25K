@@ -19,7 +19,7 @@
     self = [super init];
     if (self) {
         _name = @(property_getName(property));
-//        _type = 
+        _type = [FRPropertyType propertyTypeWithAttributesString:@(property_getAttributes(property))];
     }
     return self;
 }

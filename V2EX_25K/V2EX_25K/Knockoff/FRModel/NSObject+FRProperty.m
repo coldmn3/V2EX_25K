@@ -21,10 +21,8 @@
     
     for (int i = 0; i < outCount; i++) {
         objc_property_t property = properties[i];
-        NSString *name = @(property_getName(property));
-//        FRProperty *propertyObject = 
-        NSString *attributeString = @(property_getAttributes(property));
-        NSLog(@"%@ -> %@", name, attributeString);
+        
+        FRProperty *propertyObject = [FRProperty propertyObjectWithProperty:property];
     }
     return nil;
 }

@@ -8,6 +8,13 @@
 
 #import "FRPropertyType.h"
 
+NSString *const FRPropertyTypeChar = @"c";
+NSString *const FRPropertyTypeInt = @"i";
+NSString *const FRPropertyTypeShort = @"s";
+NSString *const FRPropertyTypeLong = @"l";
+NSString *const FRPropertyTypeFloat = @"f";
+
+
 @implementation FRPropertyType
 
 + (instancetype)propertyTypeWithAttributesString:(NSString *)string {

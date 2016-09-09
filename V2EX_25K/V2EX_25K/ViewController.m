@@ -42,7 +42,6 @@
 //
 //    [self.view addSubview:vv];
     
-
     [Person fr_properties];
     
     const char *cString = "Hello";

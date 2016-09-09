@@ -14,7 +14,7 @@
 
 @property (nonatomic, strong) NSString *name;
 
-@property (nonatomic, strong) FRProperty *type;
+@property (nonatomic, strong) FRPropertyType *type;
 
 + (FRProperty *)propertyObjectWithProperty:(objc_property_t)property;
 

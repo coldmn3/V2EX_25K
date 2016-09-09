@@ -10,15 +10,54 @@
 
 @interface UIView (FRExtend)
 
-@property (nonatomic, assign) CGFloat left;        ///< Shortcut for frame.origin.x.
-@property (nonatomic, assign) CGFloat top;         ///< Shortcut for frame.origin.y
-@property (nonatomic, assign) CGFloat right;       ///< Shortcut for frame.origin.x + frame.size.width
-@property (nonatomic, assign) CGFloat bottom;      ///< Shortcut for frame.origin.y + frame.size.height
-@property (nonatomic, assign) CGFloat width;       ///< Shortcut for frame.size.width.
-@property (nonatomic, assign) CGFloat height;      ///< Shortcut for frame.size.height.
-@property (nonatomic, assign) CGFloat centerX;     ///< Shortcut for center.x
-@property (nonatomic, assign) CGFloat centerY;     ///< Shortcut for center.y
-@property (nonatomic, assign) CGPoint origin;      ///< Shortcut for frame.origin.
-@property (nonatomic, assign) CGSize  size;        ///< Shortcut for frame.size.
+/**
+ *  frame.origin.y
+ */
+@property (nonatomic, assign) CGFloat fr_top;
+
+/**
+ *  frame.origin.x
+ */
+@property (nonatomic, assign) CGFloat fr_left;
+
+/**
+ *  frame.origin.y + frame.size.height
+ */
+@property (nonatomic, assign) CGFloat fr_bottom;
+
+/**
+ *  frame.origin.x + frame.size.width
+ */
+@property (nonatomic, assign) CGFloat fr_right;
+
+/**
+ *  frame.size.width
+ */
+@property (nonatomic, assign) CGFloat fr_width;
+
+/**
+ *  frame.size.height
+ */
+@property (nonatomic, assign) CGFloat fr_height;
+
+/**
+ *  center.x
+ */
+@property (nonatomic, assign) CGFloat fr_centerX;
+
+/**
+ *  center.y
+ */
+@property (nonatomic, assign) CGFloat fr_centerY;
+
+/**
+ *  frame.origin
+ */
+@property (nonatomic, assign) CGPoint fr_origin;
+
+/**
+ *  frame.size
+ */
+@property (nonatomic, assign) CGSize fr_size;
 
 @end

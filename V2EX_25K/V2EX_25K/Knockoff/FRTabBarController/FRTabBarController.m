@@ -8,9 +8,13 @@
 
 #import "FRTabBarController.h"
 
+#import "FRTabBar.h"
+
 @interface FRTabBarController ()
 
 @property (nonatomic, strong) UIView *contentView;
+
+@property (nonatomic, readwrite, strong) FRTabBar *tabBar;
 
 @end
 
@@ -22,6 +26,7 @@
     [super viewDidLoad];
     
     [self.view addSubview:self.contentView];
+    [self.view addSubview:self.tabBar];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -85,6 +90,16 @@
         _contentView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     }
     return _contentView;
+}
+
+- (FRTabBar *)tabBar
+{
+    if (!_tabBar) {
+        _tabBar = [[FRTabBar alloc] init];
+        _tabBar.backgroundColor = [UIColor whiteColor];
+        _tabBar.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleLeftMargin |UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleRightMargin;
+    }
+    return _tabBar;
 }
 
 @end

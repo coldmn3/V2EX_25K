@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class FRTabBarController;
+@class FRTabBarController, FRTabBar;
 
 @protocol FRTabBarControllerDelegate <NSObject>
 
@@ -36,6 +36,8 @@
 @property (nonatomic, weak) id<FRTabBarControllerDelegate> delegate;
 
 @property (nonatomic, copy) NSArray *viewControllers;
+
+@property (nonatomic, readonly, strong) FRTabBar *tabBar;
 
 @property (nonatomic, weak) UIViewController *selectedViewController;
 

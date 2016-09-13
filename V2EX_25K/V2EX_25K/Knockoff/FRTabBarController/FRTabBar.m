@@ -8,7 +8,6 @@
 
 #import "FRTabBar.h"
 
-#import "UIColor+FRExtend.h"
 
 @implementation FRTabBar
 
@@ -36,7 +35,7 @@
 }
 
 - (void)commonInit {
-    self.backgroundColor = [UIColor randomColor];
+    
 }
 
 @end

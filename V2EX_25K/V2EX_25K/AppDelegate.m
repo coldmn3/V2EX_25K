@@ -22,8 +22,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     FRTabBarController *tabBarController = [[FRTabBarController alloc] init];
-//    ViewController *viewController = [[ViewController alloc] init];
-//    self.window.rootViewController = viewController;
     self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
     

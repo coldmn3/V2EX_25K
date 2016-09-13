@@ -9,6 +9,9 @@
 #import "FRTabBarController.h"
 
 #import "FRTabBar.h"
+#import "UIColor+FRExtend.h"
+
+static const NSUInteger kDefaultTabBarHeight = 49;
 
 @interface FRTabBarController ()
 
@@ -32,10 +35,61 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
+    [self setTabBarHidden:self.isTabBarHidden animated:NO];
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
     
+    [self setTabBarHidden:self.isTabBarHidden animated:NO];
+}
+
+#pragma mark - Logics
+
+- (void)setTabBarHidden:(BOOL)hidden animated:(BOOL)animated {
+    _tabBarHidden = hidden;
+    
+    __weak __typeof(self) weakSelf = self;
+    
+    void (^animations)() = ^{
+        CGSize viewSize = weakSelf.view.frame.size;
+        CGFloat contentViewHeight = viewSize.height;
+        CGFloat tabBarStartingY = viewSize.height;
+        CGFloat tabBarHeight = CGRectGetHeight(self.tabBar.frame);
+        
+        if (tabBarHeight <= 0) {
+            tabBarHeight = kDefaultTabBarHeight;
+        }
+        
+        if (!weakSelf.isTabBarHidden) {
+            tabBarStartingY = viewSize.height - tabBarHeight;
+            weakSelf.tabBar.hidden = NO;
+        }
+        
+        [self.contentView setFrame:CGRectMake(0, 0, viewSize.width, contentViewHeight)];
+        [self.tabBar setFrame:CGRectMake(0, tabBarStartingY, viewSize.width, tabBarHeight)];
+    };
+    
+    void (^completion)(BOOL) = ^(BOOL finished){
+        if (weakSelf.isTabBarHidden) {
+            weakSelf.tabBar.hidden = NO;
+        }
+    };
+    
+    if (animated) {
+        [UIView animateWithDuration:0.25 animations:animations completion:completion];
+    }
+    else {
+        animations();
+        completion(YES);
+    }
 }
 
 #pragma mark - Setter
+
+- (void)setTabBarHidden:(BOOL)tabBarHidden {
+    [self setTabBarHidden:tabBarHidden animated:NO];
+}
 
 - (void)setSelectedIndex:(NSUInteger)selectedIndex {
     NSAssert(selectedIndex >= [self.viewControllers count], @"selectedIndex out of bounds");
@@ -66,7 +120,6 @@
     [self.contentView addSubview:self.selectedViewController.view];
     [self.selectedViewController didMoveToParentViewController:self];
     
-    //  child viewcontroller status bar可能需要update
     [self setNeedsStatusBarAppearanceUpdate];
 }
 
@@ -92,11 +145,10 @@
     return _contentView;
 }
 
-- (FRTabBar *)tabBar
-{
+- (FRTabBar *)tabBar {
     if (!_tabBar) {
         _tabBar = [[FRTabBar alloc] init];
-        _tabBar.backgroundColor = [UIColor whiteColor];
+        _tabBar.backgroundColor = [UIColor randomColor];
         _tabBar.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleLeftMargin |UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleRightMargin;
     }
     return _tabBar;

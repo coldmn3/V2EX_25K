@@ -43,4 +43,9 @@
 
 @property (nonatomic, assign) NSUInteger selectedIndex;
 
+// setter [self setTabBarHidden:tabBarHidden animated:NO];
+@property (nonatomic, assign, getter=isTabBarHidden) BOOL tabBarHidden;
+
+- (void)setTabBarHidden:(BOOL)hidden animated:(BOOL)animated;
+
 @end

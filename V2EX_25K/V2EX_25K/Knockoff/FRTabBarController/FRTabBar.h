@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class FRTabBar;
+@class FRTabBar, FRTabBarItem;
 
 @protocol FRTabBarDelegate <NSObject>
 
@@ -25,6 +25,8 @@
 @property (nonatomic, weak) id<FRTabBarDelegate> delegate;
 
 @property (nonatomic, copy) NSArray *items;
+
+@property (nonatomic, weak) FRTabBarItem *selectedItem;
 
 @property (nonatomic, assign) CGFloat height;
 

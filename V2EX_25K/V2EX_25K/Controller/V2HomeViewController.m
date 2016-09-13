@@ -7,6 +7,7 @@
 //
 
 #import "V2HomeViewController.h"
+#import "UIColor+FRExtend.h"
 
 @interface V2HomeViewController ()
 
